@@ -337,6 +337,9 @@ ol a:hover{
 	text-decoration:underline
 }
 
+ins{
+	height: auto !important;
+}
 .adsbygoogle{
 	width: 98%;
 	margin: 10px auto 0px auto;
