@@ -6,7 +6,19 @@ var fontW;
 function addTable(bbColor, hColor, hbgColor, hbColor, fontW){
 	$("#fTable").remove();
 	$("hr").css("border-top-color",hbColor);
-	$("body").append('<table id="fTable" style="color:' + hColor + ';background-color:' + bbColor + '"><tr><td rowspan="3" style="width:150px;text-align:center"><a href="https://deriveit.net"><img alt="click here to go to the main page" id="drvitimg" src="../../pictures/link_logo.png"></a></td><td class="tdpadding" style="border-color:' + hbColor + ';background-color:' + hbgColor + ';border-top-style:solid">If you found a bug in this website or want to report an error, <a href="../../submitpage1.html?lastPage='+window.location.href+'" style="color:' + hColor +'">click here</a></td></tr><tr><td class="tdpadding" style="border-color:' + hbColor + ';background-color:' + hbgColor + '">If there are any equations for which you want proof for, <a href="../../submitpage2.html?lastPage='+window.location.href+'" style="color:' + hColor + '">click here</a></td></tr><tr><td class="tdpadding" style="border-color:' + hbColor + ';background-color:' + hbgColor + ';border-bottom-style:solid">For any suggestion and ideas, <a href="../../submitpage3.html?lastPage='+window.location.href+'" style="color:' + hColor + '">click here</a></td></tr></table>');
+	$("body").append('\
+	<table id="fTable" style="color:' + hColor + ';background-color:' + bbColor + '">\
+		<tr>\
+			<td rowspan="3" style="width:150px;text-align:center"><a href="https://deriveit.net"><img alt="click here to go to the main page" id="drvitimg" src="../../pictures/link_logo.png"></a></td>\
+			<td class="tdpadding" style="border-color:' + hbColor + ';background-color:' + hbgColor + ';border-top-style:solid">If you found a bug in this website or want to report an error, <a href="../../submitpage1.html?lastPage='+window.location.href+'" style="color:' + hColor +'">click here</a></td>\
+		</tr>\
+		<tr>\
+			<td class="tdpadding" style="border-color:' + hbColor + ';background-color:' + hbgColor + '">If there are any equations for which you want proof for, <a href="../../submitpage2.html?lastPage='+window.location.href+'" style="color:' + hColor + '">click here</a></td>\
+		</tr>\
+		<tr>\
+			<td class="tdpadding" style="border-color:' + hbColor + ';background-color:' + hbgColor + ';border-bottom-style:solid">For any suggestion and ideas, <a href="../../submitpage3.html?lastPage='+window.location.href+'" style="color:' + hColor + '">click here</a></td>\
+		</tr>\
+	</table>');
 	$("#fTable tr").css("font-weight",fontW);
 }
 
@@ -195,13 +207,3 @@ else{
 		</script>').insertBefore($("hr")[0]);
 	})
 }
-
-var eachlink;
-$("body").ready(function(){
-	$("a").each(function(){
-		eachlink = $(this);
-		if (eachlink.attr("href") != "underconstruction"){
-			eachlink.attr({"target":"_blank"});
-		}
-	})
-})
