@@ -1,5 +1,3 @@
-console.log("testing testing website shift successful");
-
 var link
 var name
 var position
