@@ -337,12 +337,12 @@ ol a:hover{
 	text-decoration:underline
 }
 
-ins{height: auto;}
 .adsbygoogle{
 	width: 98%;
 	margin: 10px auto 0px auto;
-	overflow-x: scroll;
+	overflow-x: auto;
 }
+
 hr{
 	border-width: 3px 0px 0px 0px;
 	border-top-style: solid;
