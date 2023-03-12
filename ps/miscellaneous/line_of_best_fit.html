@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<!--head~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<head>
+    <TITLE>deriving the regression coefficient of y on x</TITLE>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+<!--body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<BODY id="body2">
+<header id="mainheader2" style="background-color:white"><h1>Deriving The Regression Coefficient Of y On x</h1></header>
+<p class="pmain">Lets say we are given some x values with their associated y values:</p>
+<img class="displayimg" src="1.png">
+<p class="pmain">We can take a guess at what the best fit line could look like:</p>
+<img class="displayimg" src="2.png">
+<p class="pmain">Let y<sub>i</sub> be the output with x<sub>i</sub>, and let h<sub>i</sub> be the predicted output (= (&theta; * x<sub>i</sub>) + &alpha;, where &theta; is the gradient of the best fit line and &alpha; is the bias).</p>
+<img class="displayimg" src="3.PNG">
+<p class="pmain">We will introduce another variable: <b>loss</b>, which is the sum of (y<sub>i</sub> - h<sub>i</sub>)<sup>2</sup>.</p>
+<img class="displayimg" src="4.PNG">
+<p class="pmain">The smaller the difference between y<sub>i</sub> and h<sub>i</sub>, the smaller the value of loss. Our goal is to find the &theta; which will give the smallest possible value for loss. We can start by differentiating the loss with respect to &theta;, but before we do that, we must first expand &alpha;:</p>
+<img class="displayimg" src="5.PNG">
+<p class="pmain">In the above equation, y<sub>m</sub> represents the mean y value, and x<sub>m</sub> represents the mean x value. The line of best fit is expected to pass through (x<sub>m</sub>, y<sub>m</sub>), meaning y<sub>m</sub> = &theta;x<sub>m</sub> + &alpha;. Now lets differentiate the loss:</p>
+<img class="displayimg" src="6.PNG">
+<p class="pmain">With different values of &theta;, we get different values of loss. The loss function (with respect to &theta;) is a parabola, and to find the global minimum, we can set the gradient to 0.</p>
+<img class="displayimg" src="7.PNG">
+<p class="pmain">We can simplify this:</p>
+<img class="displayimg" src="8.PNG">
+<p class="pmain">Now lets make &theta; the subject:</p>
+<img class="displayimg" src="9.PNG">
+<p class="pmain">This will give us the regression coefficient:</p>
+<img class="displayimg" src="10.PNG">
+<hr>
+<script src="../../main.js"></script>
+</BODY>
+</html>

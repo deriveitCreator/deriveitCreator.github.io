@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<!--head~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<HEAD>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<TITLE>Showing the equivalence of the focus-directrix definition and the conic section of a parabola</TITLE>
+</HEAD>
+<!--body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<BODY id="body2">
+<header id="mainheader2" style="background-color:white"><h1>The Equivalence Of The Focus-Directrix Definition And The Conic Section Definition Of A Parabola</h1></header>
+<p class="pmain">Here I have a <span style='color:darkblue'>cone</span> and a plane <span style='color:sandybrown'>P</span> intersecting it:</p>
+<img class="displayimg" src="parabola1.PNG">
+<p class="pmain">Here is a 2D view perpendicular to <span style='color:sandybrown'>P</span>:</p>
+<img class="displayimg" src="parabola2.PNG">
+<p class="pmain">The plane <span style='color:sandybrown'>P</span> is parallel to the <span style='color:darkblue'>cone</span>'s surface:</p>
+<img class="displayimg" src="parabola3.PNG">
+<p class="pmain">Let there be a sphere <span style='color:maroon'>S</span> inside the cone such it touches the plane <span style='color:sandybrown'>P</span> at one point. This sphere is tangent to both the <span style='color:darkblue'>cone</span> and the plane <span style='color:sandybrown'>P</span>:</p>
+<img class="displayimg" src="parabola4.PNG">
+<p class="pmain">Let plane <span style='color:rgb(0,113,162)'>B</span> be a plane where the sphere touches the cone:</p>
+<img class="displayimg" src="parabola5.PNG">
+<p class="pmain">Let point <span style='color:red'>F</span> be the point at which the sphere is touching plane <span style='color:sandybrown'>P</span>:</p>
+<img class="displayimg" src="parabola6.PNG">
+<p class="pmain">Choose a random point X on the intersection:</p>
+<img class="displayimg" src="parabola7.PNG">
+<p class="pmain">Draw a line from X along the <span style='color:darkblue'>cone</span> directly down to plane <span style='color:rgb(0,113,162)'>B</span>, touching the sphere. Let's call that point <span style="color:chocolate">M</span>:</p>
+<img class="displayimg" src="parabola8.PNG">
+<p class="pmain">Line <span class='overLine'>X<span style="color:chocolate">M</span></span> is the shortest path on the <span style='color:darkblue'>cone</span> from X to a point that touches both the sphere and plane <span style='color:rgb(0,113,162)'>B</span>, and since it lies on the cone, that means it's a tangent to the sphere. If we draw a line from X to <span style='color:red'>F</span>, then that line will also be tangent to the sphere, since plane <span style='color:sandybrown'>P</span> touches the sphere at one point, and that point being <span style='color:red'>F</span>. Since two tangents meeting at the same point would be equal in length, then <span class='overLine'>X<span style="color:red">F</span></span> = <span class='overLine'>X<span style="color:chocolate">M</span></span>. We can say that for any value of X, if we choose any random point X from the intersection, and draw a line to a point <span style="color:chocolate">M</span>, such that <span class='overLine'>X<span style="color:chocolate">M</span></span> is the shortest path on the <span style='color:darkblue'>cone</span> that's from X to a point that touches both the sphere and plane <span style='color:rgb(0,113,162)'>B</span>, then <span class='overLine'>X<span style="color:red">F</span></span> = <span class='overLine'>X<span style="color:chocolate">M</span></span>. We will now define the last three points, Y, Z and <span style="color: green;">G</span>:</p>
+<img class="displayimg" src="parabola9.jpg">
+<p class="pmain">Y is a point such that a plane on <span class="overLine">YX</span> would be parallel to <span style='color:rgb(0,113,162)'>B</span>, and it lies on the line of the cone that is parallel to <span style='color:sandybrown'>P</span>. Z is a point such that it lies on the intersection of the sphere and plane <span style='color:rgb(0,113,162)'>B</span>, and that line <span class="overLine">YZ</span> would be the shortest line on the <span style='color:darkblue'>cone</span> from Y to the plane <span style='color:rgb(0,113,162)'>B</span>. Note that the line <span class="overLine">YZ</span> is parallel to <span style='color:sandybrown'>P</span>. Lastly, point <span style='color:green'>G</span> lies on the intersection of planes <span style='color:rgb(0,113,162)'>B</span> and <span style='color:sandybrown'>P</span>. It is a point such that <span class="overLine">X<span style='color:green'>G</span></span> would be the shortest line on <span style='color:sandybrown'>P</span> from X to plane <span style='color:rgb(0,113,162)'>B</span>. Since <span class='overLine'>X<span style="color:chocolate">M</span></span> and <span class="overLine">YZ</span> are tangents from the same <span style='color:darkblue'>cone</span>, we can conclude:</p>
+<div class="displayFormula">\(YZ = X \textcolor{brown}{M} = X \textcolor{red}{F}\)</div>
+<p class="pmain">Since <span class="overLine">X<span style='color:green'>G</span></span> is parallel to <span class="overLine">YZ</span>, we can conclude:</p>
+<div class="displayFormula">\(X\textcolor{green}{G} = YZ = X \textcolor{brown}{M} = X \textcolor{red}{F}\)</div>
+<p class="pmain">Thus, we have shown that <span class="overLine">X<span style='color:green'>G</span></span> = <span class='overLine'>X<span style="color:red">F</span></span>. No matter what X we choose, <span style="color:red">F</span> will remain the same, while <span style='color:green'>G</span> could change but will always lie on the line that is the intersection of planes <span style='color:sandybrown'>P</span> and <span style='color:rgb(0,113,162)'>B</span>. With that line as the directrix, and point <span style="color:red">F</span> as the focus, we can say that the intersection of the plane <span style='color:sandybrown'>P</span> and the <span style='color:darkblue'>cone</span> is a parabola.</p>
+<hr>
+<script src="../../main.js"></script>
+</BODY>
+</HTML>

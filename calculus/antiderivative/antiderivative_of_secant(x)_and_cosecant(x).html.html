@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<HTML lang="en">
+<!--head~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<HEAD>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<TITLE>Antiderivative Of sec(x) And cosec(x)</TITLE>
+</HEAD>
+<!--body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<BODY id="body2">
+<header id="mainheader2"><h1>Antiderivative Of sec(x) And cosec(x)</h1></header>
+<p class="pmain">This is the integral we want to evaluate is:</p>
+<img src="s1.PNG" class="displayimg">
+<p class="pmain">Let's multiply the numerator and denominator by [sec(x)+tan(x)]:</p>
+<img src="s2.PNG" class="displayimg">
+<p class="pmain">Lets say [u = sec(x) + tan(x)], which means [du/dx = sec(x)tan(x) + sec<sup>2</sup>(x)]:</p>
+<img src="s3.PNG" class="displayimg">
+<p class="pmain">If we evaluate the integral:</p>
+<img src="s4.PNG" class="displayimg">
+<p class="pmain">For \(cosec(\theta)\), let's multiply the the numerator and denominator by \(cosec(\theta)-cotan(\theta)\):</p>
+<div class="displayFormula">\[\int cosec(\theta) d\theta = \int \frac{cosec(\theta) \left( cosec(\theta)-cotan(\theta)\right)}{cosec(\theta)-cotan(\theta)} d\theta\]</div>
+<p class="pmain">Since \(\left(cosec(\theta)+cotan(\theta)\right)' = cosec(\theta) \left( cosec(\theta)-cotan(\theta)\right)\), we should use the substitution rule and let \(u = cosec(\theta)+cotan(\theta)\), and that means \(du = cosec(\theta) \left( cosec(\theta)-cotan(\theta)\right) d\theta\):</p>
+<div class="displayFormula">\[\int \frac{cosec(\theta) \left( cosec(\theta)-cotan(\theta)\right)}{cosec(\theta)-cotan(\theta)} d\theta = \int \frac{1}{u} du\]</div>
+<p class="pmain">If we evaluate the integral:</p>
+<div class="displayFormula">\[ln\left(\left|cosec(\theta)-cotan(\theta) \right|\right) +C\]</div>
+<hr>
+<script src="../../main.js"></script>
+</BODY>
+</HTML>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<!--head~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<HEAD>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<TITLE>(Limits) Proof Of The Product Law</TITLE>
+</HEAD>
+<!--body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<BODY id="body2">
+<header id="mainheader2" style="background-color:white"><h1>Proof Of The Product Law</h1></header>
+<p class="pmain">Lets say we have these two limits:</p>
+<img src="p1.PNG" class="displayimg">
+<p class="pmain">This means:</p>
+<img src="p2.PNG" class="displayimg">
+<p class="pmain">Before launching into the actual proof, let's do a little Algebra. First, expand the following product:</p>
+<img src="p3.PNG" class="displayimg">
+<p class="pmain">This gives us a new way of defining f(x)g(x), we will use that here:</p>
+<img src="p4.PNG" class="displayimg">
+<p class="pmain">Since "lim<sub>x->a</sub>f(x)-L = 0" and "lim<sub>x->a</sub>g(x)-M = 0", then "lim<sub>x->a</sub>[f(x)-L][g(x)-M] = 0" (the proof of this will be shown later). We can replace "lim<sub>x->a</sub>[f(x)-L][g(x)-M]" with 0:</p>
+<img src="p5.PNG" class="displayimg">
+<p class="pmain">This means:</p>
+<img src="p6.PNG" class="displayimg">
+<p class="pmain">Our proof works if lim<sub>x->a</sub>[f(x)-L][g(x)-M] = 0 is true, now lets try to proof this. For every number &epsilon; > 0, there is a number &delta;<sub>1</sub> > 0 and a number &delta;<sub>2</sub> > 0 such that:</p>
+<img src="s2.png" class="displayimg">
+<p class="pmain">Let &delta; = min{&delta;<sub>1</sub>, &delta;<sub>2</sub>}:</p>
+<img src="p7.PNG" class="displayimg">
+<p class="pmain">This would mean lim<sub>x->a</sub>[f(x)-L][g(x)-M] = 0.</p>
+<hr>
+<script src="../../main.js"></script>
+</BODY>
+</HTML>

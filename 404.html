@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Page Not Found</title>
+<link rel="icon" type="image/png" href="https://www.deriveit.net/pictures/logo.png">
+<style>
+body{
+    background-image:linear-gradient(to bottom right,#FF9933,#FFAA33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+	font-family: rFont;
+	src: url('https://www.deriveit.net/font/Gravity-Book.otf');
+}
+div{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    border: 5px solid #663300;
+    border-radius: 10px;
+    background-color: #FFD966;
+}
+div p{
+    font-family: rFont;
+    width: 100%;
+    padding: 0px 10px;
+    margin: 15px 0px;
+    box-sizing: border-box;
+}
+button{
+    font-family: rFont;
+    font-size: 18px;
+    color: #331100;
+    display: block;
+    width: 100%;
+    line-height: 22px;
+    background-color: rgb(200,100,00);
+    outline: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+p:last-child{
+    border-top: 4px solid #663300;
+    margin: 0px;
+    padding: 5px 0px;
+    background-color: rgb(200,100,00);
+}
+p:hover button{
+    font-size: 20px;
+}
+@media screen and (max-width: 1023px){
+    div{font-size: 35px;line-height: 40px;}
+    button{font-size: 30px;line-height: 35px;}
+}
+</style>
+<script>
+function goBack(){
+    window.history.back();
+}
+</script>
+</head>
+<body>
+<div>
+<p>404 Page Not Found</p>
+<p>This Page May Be Underconstruction</p>
+<p><button onclick="goBack()">Go Back</button></p>
+</div>
+</body>
+</html>

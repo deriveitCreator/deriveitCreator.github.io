@@ -1,0 +1,318 @@
+<!DOCTYPE HTML>
+<html id="html" lang="en">
+ <!--head~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+ <head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860967711062471"
+  crossorigin="anonymous"></script>
+  <title>
+   DeriveIt
+  </title>
+  <link href="index.css" rel="stylesheet" type="text/css"/>
+  <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+  <meta charset="utf-8"/>
+  <link href="pictures/logo.png" rel="icon" type="image/png"/>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+ </head>
+ <!--page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+ <body id="body">
+  <div id="loading">
+   <table id="loadcontain">
+    <tr>
+     <td id="forline" rowspan="2">
+      <img src="pictures/link_logo.png"/>
+     </td>
+     <td id="betweenBorder" rowspan="2">
+     </td>
+     <td id="recommended">
+      <b>
+       Recommended Browsers:
+      </b>
+      <br/>
+      - Google Chrome
+      <br/>
+      - Safari
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <button disabled="disabled" id="continue" onclick="afterLoading()">
+       loading
+      </button>
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="mainPart">
+   <header>
+    <h1 id="mainheading">Welcome To <span style="color:#0066FF">Derive</span> It<span style="color:#0066FF">!</span>
+    </h1>
+    <div id="slideshow">
+     <div class="changeSlide" id="prevSlide" onclick="leftSlideNow()">
+      <i class="fa fa-angle-left">
+      </i>
+     </div>
+     <a href="astronomy/geocentric/geocentric.html" id="images">
+      <img src="pictures/slideshow1.png"/>
+     </a>
+     <div class="changeSlide" id="nextSlide" onclick="rightSlideNow()">
+      <i class="fa fa-angle-right">
+      </i>
+     </div>
+    </div>
+   </header>
+   <div id="searchdiv">
+    <div id="searchSelection">
+     <div id="topicSelect" onclick="searchClicked()">
+      <i class="fa fa-caret-down">
+      </i>
+      Search Topic
+     </div>
+     <div id="searchOptions">
+     </div>
+    </div>
+    <div id="typingArea">
+     <input autocomplete="off" disabled="disabled" id="searchBox" type="text"/>
+     <div id="pageOptions">
+     </div>
+    </div>
+   </div>
+   <nav>
+    <table id="maintable">
+     <tr>
+      <td id="ttitle">
+       Choose Your Topic:
+      </td>
+     </tr>
+     <!--When making images in powerpoint, the width should be 646px and height should be 334px-->
+     <tr class="tableb">
+      <td>
+       <div class="first">
+        <div class="second">
+         <a href="algebra/algebra.html">
+          <img alt="algebra" class="imginfo" src="pictures/algebra.png"/>
+         </a>
+        </div>
+        <div class="second">
+         <a href="geometry/geometry.html">
+          <img alt="geometry" class="imginfo" src="pictures/geometry.png"/>
+         </a>
+        </div>
+       </div>
+      </td>
+     </tr>
+     <tr class="tableb">
+      <td>
+       <div class="first">
+        <div class="second">
+         <a href="dismaths/dismaths.html">
+          <img alt="discrete mathematics" class="imginfo" src="pictures/dismaths.png"/>
+         </a>
+        </div>
+        <div class="second">
+         <a href="linear_algebra/linear_algebra.html">
+          <img alt="linear algebra" class="imginfo" src="pictures/linear_algebra.png"/>
+         </a>
+        </div>
+       </div>
+      </td>
+     </tr>
+     <tr class="tableb">
+      <td>
+       <div class="first">
+        <div class="second">
+         <a href="trigonometry/trigonometry.html">
+          <img alt="trigonometry" class="imginfo" src="pictures/trigonometry.png"/>
+         </a>
+        </div>
+        <div class="second">
+         <a href="calculus/calculus.html">
+          <img alt="calculus" class="imginfo" src="pictures/calculus.png"/>
+         </a>
+        </div>
+       </div>
+      </td>
+     </tr>
+     <tr class="tableb">
+      <td>
+       <div class="first">
+        <div class="second">
+         <a href="ps/ps.html">
+          <img alt="probability and statistics" class="imginfo" src="pictures/ps.png"/>
+         </a>
+        </div>
+        <div class="second">
+         <a href="mechanics/mechanics.html">
+          <img alt="mechanics" class="imginfo" src="pictures/mechanics.png"/>
+         </a>
+        </div>
+       </div>
+      </td>
+     </tr>
+     <tr class="tableb">
+      <td>
+       <div class="first">
+        <div class="second">
+         <a href="astronomy/astronomy.html">
+          <img alt="astronomy" class="imginfo" src="pictures/astronomy.png"/>
+         </a>
+        </div>
+        <div class="second">
+         <a href="chemistry/chemistry.html">
+          <img alt="chemistry" class="imginfo" src="pictures/chemistry.png"/>
+         </a>
+        </div>
+       </div>
+      </td>
+     </tr>
+     <tr class="tableb">
+      <td>
+       <div class="first">
+        <div class="second">
+         <a href="electricity/electricity.html">
+          <img alt="electricity" class="imginfo" src="pictures/em.png"/>
+         </a>
+        </div>
+        <div class="second">
+         <a href="biology/biology.html">
+          <img alt="biology" class="imginfo" src="pictures/biology.png"/>
+         </a>
+        </div>
+       </div>
+      </td>
+     </tr>
+    </table>
+   </nav>
+
+   <!-- recently added -->
+   <table id="tableadded">
+    <tr class="tback">
+     <td class="ttitle2" rowspan="4">
+      <span style="float:left">
+       Recently
+      </span>
+      <span style="float:right">
+       Added
+      </span>
+     </td>
+     <td class="ttext">
+      <a href="geometry/Conic_Sections/the_equivalence_of_the_conic_section_definition_and_the_focus-directrix_definition_of_a_parabola.html">
+       Showing the equivalence of the two definitions of a parabola
+      </a>
+     </td>
+    </tr>
+    <tr class="tback">
+     <td class="ttext">
+      <a href="geometry/Conic_Sections/getting_the_standard_form_equation_of_a_parabola_from_the_focus_and_directrix_definition.html">
+       Deriving The Standard Form Equation Of A Parabola From The focus And Directrix Definition
+      </a>
+     </td>
+    </tr>
+    <tr class="tback">
+     <td class="ttext">
+      <a href="dismaths/factorials,_permutations_and_combinations/using_combinations_to_find_a_number_in_the_Pascal's_triangle.html">
+       Proof That We Can Use Combinations To Find A Number In The Pascal's Triangle
+      </a>
+     </td>
+    </tr>
+    <tr class="tback">
+     <td class="ttext">
+      <a href="geometry/More_Quadrilateral_Related_Stuff/constructing_a_parallelogram_with_a_given_angle_and_with_an_area_equal_to_a_given_triangle.html">
+       Constructing A Parallelogram With A Given Angle And With An Area Equal To A Given Triangle
+      </a>
+     </td>
+    </tr>
+   </table>
+   
+   <!-- recently edited -->
+   <table id="tableedit">
+    <tr class="tback">
+     <td class="ttitle2" rowspan="4">
+      <span style="float:left">
+       Recently
+      </span>
+      <span style="float:right">
+       Edited
+      </span>
+     </td>
+     <td class="ttext">
+      <a href="geometry/Conic_Sections/the_equivalence_of_the_conic_section_definition_and_the_focus-directrix_definition_of_a_parabola.html">
+       Showing the equivalence of the two definitions of a parabola
+      </a>
+     </td>
+    </tr>
+    <tr class="tback">
+     <td class="ttext">
+      <a href="ps/miscellaneous/line_of_best_fit.html">
+       deriving the regression coefficient of y on x
+      </a>
+     </td>
+    </tr>
+    <tr class="tback">
+     <td class="ttext">
+      <a href="geometry/Circle_Related_Stuff/thales_theorem.html">
+       Proof Of Thales Theorem
+      </a>
+     </td>
+    </tr>
+    <tr class="tback">
+     <td class="ttext">
+      <a href="geometry/Conic_Sections/getting_the_standard_form_equation_of_a_parabola_from_the_focus_and_directrix_definition.html">
+       Deriving The Standard Form Equation Of A Parabola From The focus And Directrix Definition
+      </a>
+     </td>
+    </tr>
+   </table>
+   
+   <!--footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+   <footer>
+    <table id="footertd">
+     <tr>
+      <td class="footertd2" style="width:1000px">
+       If you find a bug in this website or want to report an error,
+       <a href="submitpage1.html?lastPage=main page" target="_blank">
+        click here
+       </a>
+      </td>
+      <td class="footertd2" rowspan="3" style="width: 200px;">
+       <a href="https://www.paypal.com/donate/?business=8UEU66XK9RMKG&no_recurring=1&currency_code=CAD">
+        <div id="donationPic">
+         <span style="text-align: center;width: 100%;display: block;">
+          Want To Donate?
+         </span>
+         <img id="payPalImg" src="pictures/payPal.png"/>
+        </div>
+       </a>
+      </td>
+     </tr>
+     <tr>
+      <td class="footertd2">
+       If there are any equations for which you want proof for,
+       <a href="submitpage2.html?lastPage=main page" target="_blank">
+        click here
+       </a>
+      </td>
+     </tr>
+     <tr>
+      <td class="footertd2">
+       For any suggestion and ideas,
+       <a href="submitpage3.html?lastPage=main page" target="_blank">
+        click here
+       </a>
+      </td>
+     </tr>
+     <tr>
+      <td colspan="2">
+       deriveit.com
+      </td>
+     </tr>
+    </table>
+   </footer>
+  </div>
+  <div id="bline">
+  </div>
+  <script src="index.js">
+  </script>
+ </body>
+</html>

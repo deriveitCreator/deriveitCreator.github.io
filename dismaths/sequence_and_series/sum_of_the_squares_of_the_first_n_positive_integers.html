@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<!--head~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<HEAD>
+<TITLE>Showing That The Sum Of The Squares Of The First n Positive Integers = n(n+1)(2n+1)/6</TITLE>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</HEAD>
+<!--body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<BODY id="body2">
+<header id="mainheader2" style="background-color:white"><h1>Proof That The Sum Of The Squares Of The First n Positive Integers = n(n+1)(2n+1)/6</h1></header>
+<p class="pmain">Lets evaluate \(\Sigma^n_{i=1} \left[\left(1+i\right)^3 - i ^3\right]\):</p>
+<div class="displayFormula">\[\Sigma^n_{i=1} \left[\left(1+i\right)^3 - i ^3\right] = \Sigma^n_{i=1}\left[3i^2+3i+1\right] = 3 \Sigma^n_{i=1} i^2+ 3 \Sigma^n_{i=1} i+ \Sigma^n_{i=1}1\]</div>
+<p class="pmain">Let \(S\) be what we are trying to proof. We will call the equation below (1):</p>
+<div class="displayFormula">\[\tag{1} \Sigma^n_{i=1} \left[\left(1+i\right)^3 - i ^3\right] = 3 S +3\frac{n(n+1)}{2}+ n \]</div>
+<p class="pmain">Lets expand \(\Sigma^n_{i=1} \left[\left(1+i\right)^3 - i ^3\right]\):</p>
+<div class="displayFormula">\[\Sigma^n_{i=1} \left[\left(1+i\right)^3 - i ^3\right] = \left(2^3-1^3\right)+\left(3^3-2^3\right)+\left(4^3-3^3\right)+\ldots+\left(\left(n+1\right)^3-n^3\right)\]</div>
+<p class="pmain">Alot of terms cancel out:</p>
+<div class="displayFormula">\[\Sigma^n_{i=1} \left[\left(1+i\right)^3 - i ^3\right] = \left(\cancel{2^3}-1^3\right)+\left(\cancel{3^3}-\cancel{2^3}\right)+\left(\cancel{4^3}-\cancel{3^3}\right)+\ldots+\left(\left(n+1\right)^3-\cancel{n^3}\right)\]</div>
+<p class="pmain">Simplify:</p>
+<div class="displayFormula">\[\Sigma^n_{i=1} \left[\left(1+i\right)^3 - i ^3\right] = \left(n+1\right)^3 - 1\]</div>
+<p class="pmain">We will call this equation (2):</p>
+<div class="displayFormula">\[\Sigma^n_{i=1} \left[\left(1+i\right)^3 - i ^3\right] = n^3 +3 n^2 + 3n\tag{2}\]</div>
+<p class="pmain">Combining (1) and (2):</p>
+<div class="displayFormula">\[n^3 +3 n^2 + 3n=3 S +3\frac{n(n+1)}{2}+ n\]</div>
+<p class="pmain">Simplifying this gives us our answer:</p>
+<div class="displayFormula">\[S=\frac{n\left(n+1\right)\left(2n+1\right)}{6}\]</div>
+
+<hr>
+<script src="../../main.js"></script>
+</BODY>
+</HTML>

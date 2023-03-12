@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<!--head~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<HEAD>
+<TITLE>Showing That The Sum Of The Cubes Of The First n Positive Integers = (n(n+1)/2)^2</TITLE>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</HEAD>
+<!--body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<BODY id="body2">
+<header id="mainheader2" style="background-color:white"><h1>Proof That The Sum Of The Cubes Of The First n Positive Integers = (n(n+1)/2)^2</h1></header>
+<p class="pmain">Lets evaluate \(\Sigma^n_{i=1} \left[\left(1+i\right)^4 - i ^4\right]\):</p>
+<div class="displayFormula">\[\Sigma^n_{i=1} \left[\left(1+i\right)^4 - i ^4\right] = \Sigma^n_{i=1}\left[4i^3+6i^2+4i+1\right] = 4 \Sigma^n_{i=1} i^3 + 6 \Sigma^n_{i=1} i^2 + 4 \Sigma^n_{i=1} i+ \Sigma^n_{i=1}1\]</div>
+<p class="pmain">Let \(S\) be what we are trying to proof. We will call the equation below (1):</p>
+<div class="displayFormula">\[\Sigma^n_{i=1} \left[\left(1+i\right)^4 - i ^4\right] = 4 S + n\left(n+1\right)\left(2n+1\right)+2n \left(n+1\right)+ n \tag{1} \]</div>
+<p class="pmain">Lets expand \(\Sigma^n_{i=1} \left[\left(1+i\right)^4 - i ^4\right]\):</p>
+<div class="displayFormula">\[\Sigma^n_{i=1} \left[\left(1+i\right)^4 - i ^4\right] = \left(2^4-1^4\right)+\left(3^4-2^4\right)+\left(4^4-3^4\right)+\ldots+\left(\left(n+1\right)^4-n^4\right)\]</div>
+<p class="pmain">Alot of terms cancel out:</p>
+<div class="displayFormula">\[\Sigma^n_{i=1} \left[\left(1+i\right)^4 - i ^4\right] = \left(\cancel{2^4}-1^4\right)+\left(\cancel{3^4}-\cancel{2^4}\right)+\left(\cancel{4^4}-\cancel{3^4}\right)+\ldots+\left(\left(n+1\right)^4-\cancel{n^4}\right)\]</div>
+
+<p class="pmain">Simplify:</p>
+<div class="displayFormula">\[\Sigma^n_{i=1} \left[\left(1+i\right)^4 - i ^4\right] = \left(n+1\right)^4 - 1\]</div>
+<p class="pmain">We will call this equation (2):</p>
+<div class="displayFormula">\[\Sigma^n_{i=1} \left[\left(1+i\right)^4 - i ^4\right] = n^4 +2 n^3 + n^2\tag{2}\]</div>
+<p class="pmain">Combining (1) and (2):</p>
+<div class="displayFormula">\[n^4 +2 n^3 + n^2=4 S + n\left(n+1\right)\left(2n+1\right)+2n \left(n+1\right)+ n\]</div>
+<p class="pmain">Simplifying this gives us our answer:</p>
+<div class="displayFormula">\[S=\frac{n^2{\left(n+1\right)}^2}{4}={\left(\frac{n\left(n+1\right)}{2}\right)}^2\]</div>
+
+<hr>
+<script src="../../main.js"></script>
+</BODY>
+</HTML>

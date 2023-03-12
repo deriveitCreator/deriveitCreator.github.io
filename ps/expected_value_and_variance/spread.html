@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<!--head~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<HEAD>
+<TITLE>Deriving an equation that would measure the spread of data</TITLE>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</HEAD>
+<!--body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<BODY id="body2">
+<header id="mainheader2" style="background-color:white"><h1>Deriving An Equation That Would Measure The Spread Of Data</h1></header>
+<p class="pmain">Here I have a set of data:</p>
+<img class="displayimg" src="51.PNG">
+<p class="pmain">Suppose we want to describe how dispersed data is. One way to do that is by checking how far each value is from the mean (3), and get the average of that:</p>
+<img class="displayimg" src="52.PNG">
+<p class="pmain">If we want to take the average of these values, we get 0; in fact, we will always get 0 no matter what data set we use. This isn't surpirsing since the mean is the center of the data set, so half of the data which is the smaller than the mean will just cancel the other half which is bigger than the mean, resulting in 0. How about we take the absolute difference instead: </p>
+<img class="displayimg" src="53.PNG">
+<p class="pmain">The average of the absolute difference is 1.2, this is called the <b>mean absolute deviation</b>. If the values in the data set are very close to each other, that if give a small mean absolute deviation, and if the values are far apart then the mean absolute deviatio would be large. This seems like a good way to measure how spread out the values are, but there is another way, and that is the <b>mean squared deviation</b> (also known as <b>variance</b>), which uses the squared difference instead of the absolute difference:</p>
+<img class="displayimg" src="54.PNG">
+<p class="pmain">The mean squared deviation in for our data set is 2. For a random Variable <span style="color: maroon;">X</span>, the variance of <span style="color: maroon;">X</span> (Var[<span style="color: maroon;">X</span>]) would be:</p>
+<img class="displayimg" src="55.PNG">
+<hr>
+<script src="../../main.js"></script>
+</BODY>
+</HTML>

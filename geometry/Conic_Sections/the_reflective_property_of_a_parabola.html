@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<!--head~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<HEAD>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<TITLE>Proving The Reflective Property Of A Parabola</TITLE>
+</HEAD>
+<!--body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<BODY id="body2">
+<header id="mainheader2" style="background-color:white"><h1>Proving The Reflective Property Of A Parabola</h1></header>
+<p class="pmain">For proving the reflective property of a parabola, only the shape of the parabola would matter, the position would not matter. The vertex equation of a parabola is [f(x) = ((x - h)<sup>2</sup>/4p) + k], but for proving the reflective property, [f(x) = x<sup>2</sup>/4p] would suffice.</p>
+<p class="pmain">Let (0, 0) be the vertex, (0, p) be the focus and (a, b) be a random point in the parabola. We will call these points V, F and R:</p>
+<img class="displayimg" src="r1.JPG">
+<p class="pmain">The tangent to f(x) at x has the gradient f'(x) = 2x/4p or f'(x) = x/2p, we will call this t(x). For example, t(a) is the gradient of the tangent at a, which is a/2p:</p>
+<img class="displayimg" src="r2.JPG">
+<p class="pmain">The directrix would be at y = -p. Let D be a point at (a, -p), and let E be a point at (a, 0):</p>
+<img class="displayimg" src="r3.JPG">
+<p class="pmain">Let point M be the intersection between FD and the x-axis.:</p>
+<img class="displayimg" src="r4.JPG">
+<p class="pmain">Since FV and ED are of the same length, then M is the midpoint of VE and FD, which means M is at (a/2, 0). Now lets try to find the gradient of line MR:</p>
+<img class="displayimg" src="r5.JPG">
+<p class="pmain">The gradient of MR is the length of RE divided by the length of ME, which is b/(a/2), or 2b/a. The value of b is f(a), or 2a<sup>2</sup>/p, which means the gradient of MR is 2(a<sup>2</sup>/4p)/a:</p>
+<img class="displayimg" src="r6.JPG">
+<p class="pmain">Does the above seem familiar? This is equal to t(a), so the line segment MR is the tangent to the parabola.</p>
+<p class="pmain">Let the angle &theta; be the angle between the t(a) and the line x = a:</p>
+<img class="displayimg" src="r7.JPG">
+<p class="pmain">This means angle MRE is &theta;:</p>
+<img class="displayimg" src="r8.JPG">
+<p class="pmain">Lets call the angle FRM &alpha;:</p>
+<img class="displayimg" src="r10.JPG">
+<p class="pmain">The reflection property states that any ray perpendicular to the directrix will bounce off the parabola and pass through the focus:</p>
+<img class="displayimg" src="r9.JPG">
+<p class="pmain">In order to prove the reflective property, we need to show that the angles &alpha; and &theta; are equal:</p>
+<img class="displayimg" src="r11.JPG">
+<p class="pmain">By definition of a parabola, the lines FR and RD are equal, which makes the triangle FRD an isosceles triangle. Since M is the midpoint of line FD, then the line MR cuts the isosceles triangle FRD by half, meaning that MR is an angle bisector of FRD, which would mean &alpha; and &theta; are equal.</p>
+<hr>
+<script src="../../main.js"></script>
+</BODY>
+</HTML>

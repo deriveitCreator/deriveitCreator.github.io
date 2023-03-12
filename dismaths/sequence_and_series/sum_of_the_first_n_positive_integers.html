@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<!--head~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<HEAD>
+<TITLE>Showing That The Sum Of The First n Positive Integers = n(n+1)/2</TITLE>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</HEAD>
+<!--body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<BODY id="body2">
+<header id="mainheader2" style="background-color:white"><h1>Proof That The Sum Of The First n Positive Integers = n(n+1)/2</h1></header>
+<p class="pmain">Let \(S_n\) be:</p>
+<div class="displayFormula">\[S_n = 1 + 2 + 3 + \ldots +  n\]</div>
+<p class="pmain">If we write the same thing in reverse:</p>
+<div class="displayFormula">\[S_n = \textcolor {red} n + \textcolor{red}{n-1} + \textcolor{red}{n-2} + \ldots + \textcolor{red}2 +  \textcolor{red}1\]</div>
+<p class="pmain">Adding the corresponding terms gives:</p>
+<div class="displayFormula">\[2S_n = \left( \textcolor {red} n+1 \right) + \left( \textcolor{red}{n-1}+2 \right) + \left( \textcolor{red}{n-2}+3 \right) + \ldots + \left( \textcolor{red}2+n-1 \right) +  \left( \textcolor{red}1+n \right)\]</div>
+<p class="pmain">Simplify:</p>
+<div class="displayFormula">\[2S_n = \left(  n+1 \right) + \left(  n+1 \right) +\ldots + \left(  n+1 \right) = n \left(n+1 \right)\]</div>
+<p class="pmain">This means:</p>
+<div class="displayFormula">\[S_n = \frac{n \left(  n+1 \right)}{2}\]</div>
+<hr>
+<script src="../../main.js"></script>
+</BODY>
+</HTML>
