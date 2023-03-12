@@ -1,3 +1,3 @@
-# uzairarif5.github.io
+# deriveitCreator.github.io
 
 This repository contains the files for my website (deriveit.net).
