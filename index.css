@@ -398,6 +398,7 @@ a{text-decoration:none}
 	overflow: scroll;
 	-ms-overflow-style: none;  /* IE and Edge */
 	scrollbar-width: none;  /* Firefox */
+	margin: 0px auto;
 }
 .adsbygoogle::-webkit-scrollbar {
     display: none; /* Hide scrollbar for Chrome, Safari and Opera */
