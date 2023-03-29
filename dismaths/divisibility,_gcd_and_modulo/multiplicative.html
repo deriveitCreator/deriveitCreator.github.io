@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<!--head~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<HEAD>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<TITLE>If gcd(a|m) = 1 And gcd(b|m) = 1, Then gcd(ab|m) = 1</TITLE>
+</HEAD>
+<!--body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<BODY id="body2">
+<header id="mainheader2" style="background-color:white"><h1>If gcd(a|m) = 1 And gcd(b|m) = 1, Then gcd(ab|m) = 1</h1></header>
+<p class="pmain">Since gcd(a|m) = 1 and gcd(b|m) = 1:</p>
+<div class="displayFormula">$$\displaylines{ax+my=1\\bw+mz=1}$$</div>
+<p class="pmain">Rearrange:</p>
+<div class="displayFormula">$$\displaylines{ax=1-my\\bw=1-mz}$$</div>
+<p class="pmain">Multiply them:</p>
+<div class="displayFormula">$$\begin{align} (ax)(bw) & = (1-my)(1-mz) \\ & =(1-my-mz+m^2yz) \end{align}$$</div>
+<p class="pmain">Simplify:</p>
+<div class="displayFormula">$$\displaylines{ ab(xw)=1+m(-y-z+myz)\\ 1=ab(xw)+m(y+z-myz)}$$</div>
+<p class="pmain">Since 1 = ab(j)+m(k), then gcd(ab, m) = 1.</p>
+<hr>
+<script src="../../main.js"></script>
+</BODY>
+</HTML>
