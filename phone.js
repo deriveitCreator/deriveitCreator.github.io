@@ -170,7 +170,7 @@ else{
 		$("#sideButton").append('<div class="setting"><div id="text">brown-mode:</div><div id="selector" onclick="darkmode()"><i class="fa fa-times"></i></div></div>'+
 								'<div class="topic"><a href="../../algebra/algebra.html"><img class="imginfo" alt="algebra" src="../../pictures/algebra.png"></a></div>'+
 								'<div class="topic"><a href="../../geometry/geometry.html"><img class="imginfo" alt="geometry" src="../../pictures/geometry.png"></a></div>'+
-								'<div class="topic"><a href="../../dismaths/dismaths.html"><img class="imginfo" alt="discrete mathematics" src="../../pictures/dismaths.png"></a></div>'+
+								'<div class="topic"><a href="../../discrete_mathematics/discrete_mathematics.html"><img class="imginfo" alt="discrete mathematics" src="../../pictures/dismaths.png"></a></div>'+
 								'<div class="topic"><a href="../../linear_algebra/linear_algebra.html"><img class="imginfo" alt="linear algebra" src="../../pictures/linear_algebra.png"></a></div>'+
 								'<div class="topic"><a href="../../trigonometry/trigonometry.html"><img class="imginfo" alt="trigonometry" src="../../pictures/trigonometry.png"></a></div>'+
 								'<div class="topic"><a href="../../calculus/calculus.html"><img class="imginfo" alt="calculus" src="../../pictures/calculus.png"></a></div>'+
