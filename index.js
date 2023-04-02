@@ -3,7 +3,7 @@ var name
 var position
 var endp
 var subject
-var subjects = ['algebra','astronomy','chemistry','biology','geometry','dismaths','calculus','electricity','trigonometry','mechanics','ps']
+var subjects = ['algebra','astronomy','chemistry','biology','geometry','discrete_mathematics','calculus','electricity','trigonometry','mechanics','ps']
 function colorcorrect(){
 	for (i = 1; i < 9; i ++){
 		name = 'menu' + i;
@@ -31,7 +31,7 @@ function colorcorrect(){
 			change.style.borderLeftColor = 'green';
 			change.style.backgroundColor = '#CCFF99';
 		}
-		if (subject == 'dismaths'){
+		if (subject == 'discrete_mathematics'){
 			document.getElementById(name).style.color = '#FF6600';
 			change.style.borderLeftColor = '#FF6600';
 			change.style.backgroundColor = '#FFEEAA';
@@ -87,7 +87,7 @@ imgArray = ['<img src="pictures/slideshow1.png">',
 			'<img src="pictures/slideshow5.png">']
 refArray = ['astronomy/history/geocentric.html',
 			'astronomy/history/heliocentric.html',
-			'dismaths/factorials,_permutations_and_combinations/factorials_and_permutations.html',
+			'discrete_mathematics/factorials,_permutations_and_combinations/factorials_and_permutations.html',
 			'chemistry/history/phlogiston_theory.html',
 			'geometry/Conic_Sections/the_equivalence_of_the_focus-directrix_definition_and_the_conic_section_definition_of_a_parabola.html']
 
