@@ -9,14 +9,10 @@
 <BODY id="body2">
 <header id="mainheader2"><h1>Why The Euclidean Algorithm Works</h1></header>
 <p class="pmain">Let's say we are trying to find \(gcd(a, b)\) where \(a \lt b\) and let \(b = aq + r\), where \(0 \le r \lt a\). In order to show that the euclidean algorithm works, we just need to show that \(gcd(a, b) = gcd(a, r)\). Let \(gcd(a, b) = d\):</p>
-<div class="displayFormula">$$\begin{align} gcd(a, b) = d & \implies d|a, d|b \\& \implies d|ma + nb \end{align}$$</div>
-<p class="pmain">Let \(m = -q\) and \(n = 1\):</p>
-<div class="displayFormula">$$\begin{align} gcd(a, b) = d & \implies d|ma + nb \\& \implies d|-qa + b \\& \implies d|r \end{align}$$</div>
-<p class="pmain">This shows that \(gcd(a, b)|r\). Now let \(gcd(a, r) = e\):</p>
-<div class="displayFormula">$$\begin{align} gcd(a, r) = e & \implies e|a, e|r \\& \implies e|ma + nr \end{align}$$</div>
-<p class="pmain">Let \(m = q\) and \(n = 1\):</p>
-<div class="displayFormula">$$\begin{align} gcd(a, r) = e & \implies e|ma + nr \\& \implies e|qa + r \\& \implies e|b \end{align}$$</div>
-<p class="pmain">This shows that \(gcd(a, r)|b\). Since \(gcd(a, r)|b\) and \(gcd(a, b)|r\), then \(gcd(a, r)=gcd(a, b)\).</p>
+<div class="displayFormula">$$\begin{align} gcd(a, b) = d & \implies d|a, d|b \implies d|ma + nb \\& \implies d|-qa + b \implies d|r \end{align}$$</div>
+<p class="pmain">This shows that \(d\) is a common divisor of \(a\), \(b\) and \(r\). Now let \(e\) be an integer such that \(e|a\) and \(e|r\):</p>
+<div class="displayFormula">$$\begin{align} e|a, e|r & \implies e|ma + nr \\& \implies e|qa + r \implies e|b \end{align}$$</div>
+<p class="pmain">This shows that \(e\) is also a common divisor of \(a\), \(b\) and \(r\).</p>
 <hr>
 <script src="../../main.js"></script>
 </BODY>
