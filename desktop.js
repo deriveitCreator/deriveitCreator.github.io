@@ -100,8 +100,8 @@ function darkmode(){
 				$(this).css('color',fontColor);
 			}
 		})
-		$(".pmain").css({'color':fontColor,'text-shadow':'3px 2px 3px #331100'});
-		$(".pmain2").css({'color':fontColor,'text-shadow':'3px 2px 3px #331100'});
+		$(".pmain").not("a").css({'color':fontColor,'text-shadow':'3px 2px 3px #331100'});
+		$(".pmain2").not("a").css({'color':fontColor,'text-shadow':'3px 2px 3px #331100'});
 		$(".subText").css({'color':fontColor,'text-shadow':'3px 2px 3px #331100'});
 		$(".notSource").css({'color':fontColor,'text-shadow':'3px 2px 3px #331100'});
 		$("#helpBox").css({'background-color':headerBackColor,'color':fontColor,'border':'6px ' + borderColor + ' ridge'});
