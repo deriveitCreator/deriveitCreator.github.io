@@ -8,63 +8,108 @@
 
 
 <url>
-  <loc>https://www.deriveit.net/probability_and_statistics/probability_and_statistics.html</loc>
-  <lastmod>2023-03-18T06:30:43+00:00</lastmod>
+  <loc>https://www.deriveit.net/discrete_mathematics/discrete_mathematics.html</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/linearity_of_expectation.html</loc>
-  <lastmod>2023-03-18T06:30:43+00:00</lastmod>
+  <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/divisibility1</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/loe2.html</loc>
-  <lastmod>2023-03-18T06:30:43+00:00</lastmod>
+  <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/divisibility2</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/exMul.html</loc>
-  <lastmod>2023-03-18T06:30:43+00:00</lastmod>
+  <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/linear_combination_smallest_gcd</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/spread.html</loc>
-  <lastmod>2023-03-18T06:30:43+00:00</lastmod>
+  <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/multiplicative</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/varDef.html</loc>
-  <lastmod>2023-03-18T06:30:43+00:00</lastmod>
+  <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/other</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/varCons.html</loc>
-  <lastmod>2023-03-18T06:30:43+00:00</lastmod>
+  <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/why_the_euclidean_algorithm_works</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/varAdd.html</loc>
-  <lastmod>2023-03-18T06:30:43+00:00</lastmod>
+  <loc>https://www.deriveit.net/discrete_mathematics/factorials,_permutations_and_combinations/0fac</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/varMean.html</loc>
-  <lastmod>2023-03-18T06:30:43+00:00</lastmod>
+  <loc>https://www.deriveit.net/discrete_mathematics/factorials,_permutations_and_combinations/factorials_and_permutations</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/markov.html</loc>
-  <lastmod>2023-03-18T06:30:43+00:00</lastmod>
+  <loc>https://www.deriveit.net/discrete_mathematics/factorials,_permutations_and_combinations/com</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/varsamp.html</loc>
-  <lastmod>2023-03-18T06:30:43+00:00</lastmod>
+  <loc>https://www.deriveit.net/discrete_mathematics/factorials,_permutations_and_combinations/using_combinations_to_find_a_number_in_the_Pascal&#39;s_triangle</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.deriveit.net/probability_and_statistics/miscellaneous/line_of_best_fit.html</loc>
-  <lastmod>2023-03-18T06:30:43+00:00</lastmod>
+  <loc>https://www.deriveit.net/discrete_mathematics/factorials,_permutations_and_combinations/binomial_theorem</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/finding_a_term_in_a_sequence</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/finding_a_term_in_g_sequence</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/sum_of_a_sequence</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/sum_of_g_sequence_finite</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/sum_of_g_sequence_infinite</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/sum_of_the_first_n_positive_integers</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/sum_of_the_squares_of_the_first_n_positive_integers</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/sum_of_the_cubes_of_the_first_n_positive_integers</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/showing_that_the_harmonic_series_diverges</loc>
+  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 

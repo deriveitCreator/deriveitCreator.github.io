@@ -8,14 +8,14 @@
 <!--body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <BODY id="body2">
 <header id="mainheader2" style="background-color:white"><h1>Number Of Ways Of Arranging n Objects With k Identical Objects</h1></header>
-<p class="pmain">Suppose out of these four letters (A, B, C and D). Using <span style="color:purple">permutations</span>, we know that there are <span style="color:purple">P(<span style="color:#FF6600">4</span>,<span style="color:#FF9933">3</span>)</span> (= 24) ways to do it:</p></p>
+<p class="pmain">How many ways are there to arrange these four letters (A, B, C and D)? Using <span style="color:purple">permutations</span>, we know that there are <span style="color:purple">P(<span style="color:#FF6600">4</span>,<span style="color:#FF9933">3</span>)</span> (= 24) ways to do it:</p></p>
 <img class="displayimg" src="a.png">
 
-<p class="pmain">Now lets say I two letters repeated and two unique letters (A, A, B and C). Now how many ways are there of arranging them. If you were to treat the two repeated letters as two unique letters, the arrangements would be the same as above:</p>
+<p class="pmain">Now lets say that there are two same letters and two unique letters (A, A, B and C). Now how many ways are there of arranging them? If you were to treat the two repeated letters as two unique letters, the arrangements would be the same as above:</p>
 
 <img class="displayimg" src="b.png">
 
-<p class="pmain">There are 4! to arrange 4 letters, but since 2 letters are repeated, all the arrangements will appear 2 times:</p>
+<p class="pmain">There are 4! to arrange 4 letters, but since 2 letters are repeated, all the arrangements will appear twice:</p>
 
 <img class="displayimg" src="c.png">
 
@@ -24,18 +24,19 @@
 <img class="displayimg" src="d.png">
 
 <p class="pmain">
-    Since there are 3 letters repeated, then each arrangement will be repeated 3! times; for example consider the arrangement [B A A A], there are 3! of arranging the three A's, so the same arrangement will be repeated 3! times. The total number of unique arrangements is (4!/3! =) 4.
+    Since there 3 repeated letters, then each arrangement will be repeated 3! times. For example, consider the arrangement [B A A A], there are 3! of arranging the three A's, so the same arrangement will be repeated 3! times. The total number of unique arrangements is (4!/3! =) 4.
 </p>
 
 <p class="pmain">
-    You can probably assume that if you want to find the number of arrangements of <b>n</b> letters, where <b>k</b> letters are repeated, then you should do <b>n!/k!</b>. Now lets say that the letters are (A, A, B and B).
+    You can probably assume that if you want to find the number of arrangements of <b>n</b> letters, where <b>k</b> letters are repeated, then there will <b>n!/k!</b> unique arrangements. Now lets say that my four letters are (A, A, B and B).
 </p>
 
 <img class="displayimg" src="e.png">
 
 <p class="pmain">
-    There are 4! ways to arrange 4 letters, but if each arrangment has two A's, then there are (4!/2! =) 12 ways to arrange the letters, and if B is also repeated twice, then there are (12/2! =) 6 ways to arrange the letters. Similarly if there were 6 letters, with two A's and three B's, then the number of ways to arrange the letters is (6!/(2!*3!) =) 60. 
+    There are 4! ways to arrange 4 letters if we consider the first A and the second A to be unique, and also the first B and the second B to be unique, but if we consider two A's to be same, then there are (4!/2! =) 12 ways to arrange these letters, and if consider the 2 B's to be unique, then there are (12/2! =) 6 ways to arrange the letters.
 </p>
+<p class="pmain">Similarly, if there were 6 letters, with two A's and three B's (A, A, B, B, B, C), then the number of ways to arrange the letters is (6!/(2!*3!) =) 60.</p>
 
 <p class="pmain">
     We can generalize this and say that the number of arrangements of <b>n</b> objects with <b>n<sub>1</sub></b> identical objects, <b>n<sub>2</sub></b> identical objects, ..., <b>n<sub>k</sub></b> identical objects:
