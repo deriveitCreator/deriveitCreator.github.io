@@ -8,11 +8,13 @@
 <!--body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <BODY id="body2">
 <header id="mainheader2"><h1>Why The Euclidean Algorithm Works</h1></header>
-<p class="pmain">Let's say we are trying to find \(gcd(a, b)\) where \(a \lt b\) and let \(b = aq + r\), where \(0 \le r \lt a\). In order to show that the euclidean algorithm works, we just need to show that \(gcd(a, b) = gcd(a, r)\). Let \(gcd(a, b) = d\):</p>
-<div class="displayFormula">$$\begin{align} gcd(a, b) = d & \implies d|ma + nb \\& \implies d|-qa + b \implies d|r \end{align}$$</div>
-<p class="pmain">This shows that \(d\) is a common divisor of \(a\), \(b\) and \(r\). Now let \(gcd(a, r) = e\):</p>
-<div class="displayFormula">$$\begin{align} gcd(a, r) = e & \implies e|ma + nr \\& \implies e|qa + r \implies e|b \end{align}$$</div>
-<p class="pmain">This shows that \(e\) is also a common divisor of \(a\), \(b\) and \(r\).</p>
+<p class="pmain">Let's say we are trying to find \(gcd(a, b)\) where \(a \gt b\) and let \(a = bq + r\), where \(r = a mod b\). In order to show that the euclidean algorithm works, we just need to show that \(gcd(a, b) = gcd(a, r)\) = \(gcd(a, a-qb)\). Let \(gcd(a, b) = d\):</p>
+<div class="displayFormula">$$\begin{align} gcd(a, b) = d & \implies d|ma + nb \\& \implies d|a -qb \implies d|r \end{align}$$</div>
+<p class="pmain">This shows that \(d\) is a common divisor of \(a\), \(b\) and \(r\). Now let \(gcd(b, r) = e\):</p>
+<div class="displayFormula">$$\begin{align} gcd(b, r) = e & \implies e|mb + nr \\& \implies e|qb + r \implies e|a \end{align}$$</div>
+<p class="pmain">This shows that \(e\) is also a common divisor of \(a\), \(b\) and \(r\). With this we can conclude two things:</p>
+<div class="displayFormula">$$\begin{align} & d|b, d|r \implies d\le gcd(b, r) \implies d\le e \\& e|a, e|b \implies e\le gcd(a, b) \implies e\le d \end{align}$$</div>
+<p class="pmain">Which means \(d=e\) or \(gcd(a,b)=gcd(b, r)\).</p>
 <hr>
 <script src="../../main.js"></script>
 </BODY>
