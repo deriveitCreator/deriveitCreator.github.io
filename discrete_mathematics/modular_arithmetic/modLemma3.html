@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<!--head~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<HEAD>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<TITLE>Proof that if ax ≡ bx (mod m) and gcd(x, m) = 1, then a ≡ b (mod m)</TITLE>
+</HEAD>
+<!--body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<BODY id="body2">
+<header id="mainheader2" style="background-color:white"><h1>Proof that if ax ≡ bx (mod m) and gcd(x, m) = 1, then a ≡ b (mod m)</h1></header>
+<p class="pmain">If \(ax ≡ bx \bmod m\):</p>
+<div class="displayFormula">$$\begin{gathered} m \mid (ax-bx) \\ m \mid x(a-b) \end{gathered}$$</div>
+<p class="pmain">If \(gcd(x, m) = 1\):</p>
+<div class="displayFormula">$$\begin{gathered}1 = j(x) + k(m) \quad (where \ j, k \in &integers;)\\ (a-b) = j(a-b)(x) + k(a-b)(m) \end{gathered}$$</div>
+<p class="pmain">Since \(m \mid (a-b)(x)\) and \(m \mid (a-b)(m)\), then:</p>
+<div class="displayFormula">$$\begin{gathered} m \mid j(a-b)(x) + k(a-b)(m) \\ m \mid (a-b) \end{gathered}$$</div>
+<p class="pmain">Therefore \(a ≡ b \bmod m\).</p>
+<hr>
+<script src="../../main.js"></script>
+</BODY>
+</HTML>
