@@ -10,7 +10,7 @@ function addTable(bbColor, hColor, hbgColor, hbColor, fontW){
 	<table id="fTable" style="color:' + hColor + ';background-color:' + bbColor + '">\
 		<tr>\
 			<td rowspan="3" style="width:150px;text-align:center"><a href="https://deriveit.net"><img alt="click here to go to the main page" id="drvitimg" src="../../pictures/link_logo.png"></a></td>\
-			<td class="tdpadding" style="border-color:' + hbColor + ';background-color:' + hbgColor + ';border-top-style:solid">If you found a bug in this website or want to report an error, <a href="../../submitpage1.html?lastPage='+window.location.href+'" style="color:' + hColor +'">click here</a></td>\
+			<td class="tdpadding" style="border-color:' + hbColor + ';background-color:' + hbgColor + ';border-top-style:solid">If you found a bug in this website or want to report a content-related mistake, <a href="../../submitpage1.html?lastPage='+window.location.href+'" style="color:' + hColor +'">click here</a></td>\
 		</tr>\
 		<tr>\
 			<td class="tdpadding" style="border-color:' + hbColor + ';background-color:' + hbgColor + '">If there are any equations for which you want proof for, <a href="../../submitpage2.html?lastPage='+window.location.href+'" style="color:' + hColor + '">click here</a></td>\
