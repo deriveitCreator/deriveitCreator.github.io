@@ -174,7 +174,7 @@ else{
 								'<div class="topic"><a href="../../linear_algebra/linear_algebra.html"><img class="imginfo" alt="linear algebra" src="../../pictures/linear_algebra.png"></a></div>'+
 								'<div class="topic"><a href="../../trigonometry/trigonometry.html"><img class="imginfo" alt="trigonometry" src="../../pictures/trigonometry.png"></a></div>'+
 								'<div class="topic"><a href="../../calculus/calculus.html"><img class="imginfo" alt="calculus" src="../../pictures/calculus.png"></a></div>'+
-								'<div class="topic"><a href="../../ps/ps.html"><img class="imginfo" alt="probability and statistics" src="../../pictures/ps.png"></a></div>'+
+								'<div class="topic"><a href="../../probability_and_statistics/probability_and_statistics.html"><img class="imginfo" alt="probability and statistics" src="../../pictures/ps.png"></a></div>'+
 								'<div class="topic"><a href="../../mechanics/mechanics.html"><img class="imginfo" alt="mechanics" src="../../pictures/mechanics.png"></a></div>'+
 								'<div class="topic"><a href="../../astronomy/astronomy.html"><img class="imginfo" alt="astronomy" src="../../pictures/astronomy.png"></a></div>'+
 								'<div class="topic"><a href="../../chemistry/chemistry.html"><img class="imginfo" alt="chemistry" src="../../pictures/chemistry.png"></a></div>'+
