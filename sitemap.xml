@@ -8,109 +8,744 @@
 
 
 <url>
-  <loc>https://www.deriveit.net/discrete_mathematics/discrete_mathematics.html</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
+  <loc>https://www.deriveit.net/</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/divisibility1</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
+  <loc>https://www.deriveit.net/algebra/algebra.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/geometry.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/discrete_mathematics.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/linear_algebra/linear_algebra.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/trigonometry.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/calculus.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/probability_and_statistics/probability_and_statistics.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/mechanics/mechanics.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/astronomy/astronomy.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/chemistry/chemistry.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/electricity/electricity.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/biology/biology.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Conic_Sections/getting_the_standard_form_equation_of_a_parabola_from_the_focus_and_directrix_definition.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/factorials,_permutations_and_combinations/using_combinations_to_find_a_number_in_the_Pascal's_triangle.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/More_Quadrilateral_Related_Stuff/constructing_a_parallelogram_with_a_given_angle_and_with_an_area_equal_to_a_given_triangle.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/probability_and_statistics/miscellaneous/line_of_best_fit.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Circle_Related_Stuff/thales_theorem.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/algebra/fractions/adding_fractions</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/algebra/fractions/multiplying_two_fractions</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/algebra/exponents/(a^m)^n</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/algebra/exponents/square_root_multiply</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/algebra/exponents/e_a_r</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/algebra/exponents/e4</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/algebra/exponents/inverse_proof</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/algebra/logarithms/power</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/algebra/logarithms/product_and_qoutient_rule</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/algebra/logarithms/change_of_base</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/algebra/quadratic_formula/quadratic_formula</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Quadrilateral_Related_Stuff/area_of_a_parallelogram</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Quadrilateral_Related_Stuff/area_of_a_trapezium</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Triangle_Related_Stuff/angles_in_a_triangle_add_to_180</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Triangle_Related_Stuff/constructing_an_equilateral_triangle</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Triangle_Related_Stuff/area_of_a_triangle</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Triangle_Related_Stuff/pythagoras_theorem</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Triangle_Related_Stuff/sides_of_30_90_60</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Circle_Related_Stuff/thales_theorem</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/More_Quadrilateral_Related_Stuff/constructing_a_parallelogram_with_a_given_angle_and_with_an_area_equal_to_a_given_triangle</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Conic_Sections/getting_the_standard_form_equation_of_a_parabola_from_the_focus_and_directrix_definition</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Conic_Sections/axis_of_symmetry_of_a_parabola</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Conic_Sections/vertex_equation_of_a_parabola</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Conic_Sections/getting_the_focus_directrix_and_vertex</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Conic_Sections/the_reflective_property_of_a_parabola</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Conic_Sections/the_equivalence_of_the_focus-directrix_definition_and_the_conic_section_definition_of_a_parabola</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/divisibility1</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/divisibility2</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/linear_combination_smallest_gcd</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/multiplicative</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/other</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/why_the_euclidean_algorithm_works</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/gcdLemma7.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/gcdLemma8.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/modular_arithmetic/modLemma1.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/modular_arithmetic/modLemma2.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/modular_arithmetic/modLemma3.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/factorials,_permutations_and_combinations/0fac</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/factorials,_permutations_and_combinations/factorials_and_permutations</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/factorials,_permutations_and_combinations/com</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.deriveit.net/discrete_mathematics/factorials,_permutations_and_combinations/using_combinations_to_find_a_number_in_the_Pascal&#39;s_triangle</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://www.deriveit.net/discrete_mathematics/factorials,_permutations_and_combinations/using_combinations_to_find_a_number_in_the_Pascal's_triangle</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/factorials,_permutations_and_combinations/binomial_theorem</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/finding_a_term_in_a_sequence</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/finding_a_term_in_g_sequence</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/sum_of_a_sequence</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/sum_of_g_sequence_finite</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/sum_of_g_sequence_infinite</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/sum_of_the_first_n_positive_integers</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/sum_of_the_squares_of_the_first_n_positive_integers</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/sum_of_the_cubes_of_the_first_n_positive_integers</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.deriveit.net/discrete_mathematics/sequence_and_series/showing_that_the_harmonic_series_diverges</loc>
-  <lastmod>2023-04-03T02:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/linear_algebra/Basics/product_of_perpendicular</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/sine_rule/sine_rule</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/cosine_rule/cosine_rule</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/basic_identity/tan</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/basic_identity/pt</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/basic_identity/90_2</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/basic_identity/basic_identity</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/basic_identity/90</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/advanced/addsubcos</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/advanced/addsubsin</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/advanced/addsubtan</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/advanced/double</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/advanced/product</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/limits/sum</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/limits/product</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/limits/inner</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/limits/root</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/limits/limit_sin</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/limits/limit_cos</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/differential_calculus/power_rule</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/differential_calculus/paq</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/differential_calculus/quo</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/differential_calculus/the_chain_rule</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/using_euler's_number/define_e</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/using_euler's_number/bx</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/using_euler's_number/log</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/using_euler's_number/power_rule2</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/using_euler's_number/only_functions_of_the_form_Ae^x_are_derivatives_of_themselves</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/using_euler's_number/e_limit</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/using_euler's_number/e_series</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/using_euler's_number/e_series2</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/trigonometric_derivatives/sin</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/trigonometric_derivatives/cos</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/trigonometric_derivatives/sec</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/trigonometric_derivatives/tan</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/trigonometric_derivatives/arcsin</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/trigonometric_derivatives/arccos</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/trigonometric_derivatives/arcsec</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/trigonometric_derivatives/arccosec</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/trigonometric_derivatives/arctan</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/trigonometric_derivatives/arccot</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/l'hospital's_rule/zeroOverZero</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/antiderivative/antiderivative_of_tangent(x)_and_cotangent(x)</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/integral_calculus/trapezium_rule</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/integral_calculus/part1</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/integral_calculus/part2</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/linearity_of_expectation</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/loe2</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/exMul</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/spread</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/varDef</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/varCons</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/varAdd</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/varMean</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/markov</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/varsamp</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/probability_and_statistics/miscellaneous/line_of_best_fit</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/mechanics/classical_mechanics/equations_of_linear_motion_with_constant_acceleration</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/mechanics/miscellaneous/adding_relative_(or_percentage)_uncertainties_when%20multiplying_or_dividing_measured_quantities</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/astronomy/history/the_geocentric_view</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/astronomy/history/e_calendar</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/astronomy/history/c_of_earth</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/astronomy/history/heliocentric</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/chemistry/history/history_of_atomic_theory</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/chemistry/history/early_metallurgy</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/chemistry/history/litmus</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/chemistry/history/phlogiston_theory</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/chemistry/history/discovery_of_co2</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/chemistry/history/hydrogen</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/chemistry/history/discovery_of_oxygen</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/geometry/Conic_Sections/axis_of_symmetry_of_a_parabola.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/discrete_mathematics/divisibility_and_gcd/linear_combination_smallest_gcd.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/cosine_rule/cosine_rule.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/advanced/addsubcos.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/limits/limit_sin.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/calculus/using_euler's_number/e_limit.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/cos1/cos2.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/probability_and_statistics/expected_value_and_variance/varMean.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.deriveit.net/trigonometry/cos1/cos1.html</loc>
+  <lastmod>2023-05-06T20:51:31+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 
 
