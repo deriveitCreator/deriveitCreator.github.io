@@ -215,7 +215,7 @@ function whileLoading(){
 		$("#continue").text("please enable images");
 	}
 }
-window.onload = function(){window.setTimeout(whileLoading,500)};
+window.onload = function(){window.setTimeout(whileLoading,100)};
 
 function imgHover(){
 	$("#pageOptions").hide();
