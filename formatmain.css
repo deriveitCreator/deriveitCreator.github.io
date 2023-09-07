@@ -216,6 +216,9 @@ h3 sup{
 .plink a:hover{
 	text-decoration: underline;
 }
+.plink a:hover mjx-container[jax="CHTML"]{
+	text-decoration: underline !important;
+}
 
 .pmain{
 	margin:28px 46px 28px 44px;

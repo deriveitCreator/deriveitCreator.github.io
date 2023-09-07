@@ -7,13 +7,12 @@ function addTable(bbColor, hColor, hbgColor, hbColor, fontW){
 	$("#fTable").remove();
 	$("hr").css("border-top-color",hbColor);
 	$("body").append('\
-	<table id="fTable" style="color:' + hColor + ';background-color:' + bbColor + '">\
-		<tr><td rowspan="4" style="width:150px;text-align:center"><a href="https://deriveit.net"><img alt="click here to go to the main page" id="drvitimg" src="../../pictures/link_logo.png"></a></td><td class="tdpadding" style="border-color:' + hbColor + ';background-color:' + hbgColor + ';border-top-style:solid">If you found a bug in this website or want to report a content-related mistake, <a href="../../submitpage1.html?lastPage='+window.location.href+'" style="color:' + hColor +'" target="_blank">click here</a></td><td style="border-color:' + hbColor + ';background-color:' + hbgColor + ';border-style: solid solid solid none" rowspan="3"><a href="https://www.paypal.com/donate/?business=8UEU66XK9RMKG&no_recurring=1&currency_code=CAD" target="_blank"><div id="donationPic"><span style="text-align: center;width: 100%;display: block;color:' + hColor + ';">Want To Donate?</span><img id="payPalImg" src="../../pictures/payPal.png"/></div></a></td></tr>\
+	<table id="fTable" style="color:' + hColor + ';background-color:' + bbColor + ';font-weight:'+fontW+'">\
+		<tr><td rowspan="4" style="width:150px;text-align:center"><a href="https://deriveit.net"><img alt="click here to go to the main page" id="drvitimg" src="../../pictures/link_logo.png"></a></td><td class="tdpadding" style="border-color:' + hbColor + ';background-color:' + hbgColor + ';border-top-style:solid">If you find a bug in this website or want to report a content-related mistake, <a href="../../submitpage1.html?lastPage='+window.location.href+'" style="color:' + hColor +'" target="_blank">click here</a></td><td style="border-color:' + hbColor + ';background-color:' + hbgColor + ';border-style: solid solid solid none" rowspan="3"><a href="https://www.paypal.com/donate/?business=8UEU66XK9RMKG&no_recurring=1&currency_code=CAD" target="_blank"><div id="donationPic"><span style="text-align: center;width: 100%;display: block;color:' + hColor + ';">Want To Donate?</span><img id="payPalImg" src="../../pictures/payPal.png"/></div></a></td></tr>\
 		<tr><td class="tdpadding" style="border-color:' + hbColor + ';background-color:' + hbgColor + '">If there are any equations for which you want proof for, <a href="../../submitpage2.html?lastPage='+window.location.href+'" style="color:' + hColor + '" target="_blank">click here</a></td></tr>\
 		<tr><td class="tdpadding" style="border-color:' + hbColor + ';background-color:' + hbgColor + ';border-bottom-style:solid">For any suggestion and ideas, <a href="../../submitpage3.html?lastPage='+window.location.href+'" style="color:' + hColor + '" target="_blank">click here</a></td></tr>\
 		<tr><td colspan="2">lol</td></tr>\
 	</table>');
-	$("#fTable tr").css("font-weight",fontW);
 }
 
 var elWidth;
@@ -166,13 +165,14 @@ var helpEl;
 var headerbColor;
 var checkId = document.getElementsByTagName("BODY")[0].id;
 if (checkId == "body1"){
-	$("head").append('<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" type="image/png" href="../pictures/logo.png"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860967711062471" crossorigin="anonymous"></script>').ready(function(){
+	$("head").append('<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" type="image/png" href="../pictures/logo.png"><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860967711062471" crossorigin="anonymous"></script>').ready(function(){
 		$("p").addClass("plink");
 		$(".plink a").css({"color":$("header").css("background-color")});
 	});
 	headerbColor = $("header").css("border-bottom-color");
 	$("h2").css({"color":headerbColor});
-	addTable($("body").css("background-color"), $("header").css("color"), $("header").css("background-color"), headerbColor,'normal');
+	let h1Text = $("h1")[0].innerText;
+	addTable($("body").css("background-color"), $("header").css("color"), $("header").css("background-color"), headerbColor,((h1Text == "Computer Science" || h1Text=="Astronomy")? "bold":"normal"));
 }
 else{
 	$("head").append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" type="image/png" href="../../pictures/logo.png">').ready(function(){
