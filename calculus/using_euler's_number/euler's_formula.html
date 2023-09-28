@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<!--head~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<HEAD>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<TITLE>Proof of Euler's Formula</TITLE>
+</HEAD>
+<!--body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<BODY id="body2">
+<header id="mainheader2" style="background-color:white"><h1>Proof of Euler's Formula</h1></header>
+<p class="pmain">For the proof we need to be familiar with the \(sin\), \(cos\) and \(e\) taylor series. Let's review the \(sin\) taylor series:</p>
+<div class="displayFormula">
+    $$\sin x = \sum^\infty_{n=0} \frac{(-1)^nx^{2n+1}}{(2n+1)!} = x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}\ldots$$
+</div>
+<p class="pmain">Here is the \(cos\) taylor series:</p>
+<div class="displayFormula">\[\cos x = \sum^\infty_{n=0} \frac{(-1)^nx^{2n}}{(2n)!} = 1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}\ldots\]</div>
+<p class="pmain">And finally the \(e\) taylor series:</p>
+<div class="displayFormula">\[e^x = \sum^\infty_{n=0} \frac{x^{n}}{n!} = 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}\ldots\]</div>
+<p class="pmain">We can break the \(e\) taylor series into even and odd components:</p>
+<div class="displayFormula">\[\begin{align}
+    e^x &= \sum_{even \ n's} \frac{x^{n}}{n!} + \sum_{odd \ n's} \frac{x^{n}}{n!} \\
+        &=\sum^\infty_{n=0} \frac{x^{2n}}{(2n)!} + \sum^\infty_{n=0} \frac{x^{2n+1}}{(2n+1)!}
+\end{align}\]</div>
+<p class="pmain">Note that:</p>
+<div class="displayFormula">\[\begin{align}
+    i^{2n} &= (-1)^n, \text{for n = 0, 1, 2, ...}\\
+    i^{2n+1} &= i(-1)^n, \text{for n = 0, 1, 2, ...}
+\end{align}\]</div>
+<p class="pmain">Let \(x = i\Theta\):</p>
+<div class="displayFormula">\[\begin{align}
+    e^{i\Theta} &=\sum^\infty_{n=0} \frac{(i\Theta)^{2n}}{(2n)!} + \sum^\infty_{n=0} \frac{(i\Theta)^{2n+1}}{(2n+1)!} \\
+    &=\sum^\infty_{n=0} \frac{(-1)^{n}(\Theta)^{2n}}{(2n)!} + \sum^\infty_{n=0} \frac{i(-1)^n(\Theta)^{2n+1}}{(2n+1)!}
+\end{align}\]</div>
+<p class="pmain">This leads to our final step:</p>
+<div class="displayFormula">\[\begin{align}
+    &=\sum^\infty_{n=0} \frac{(-1)^{n}(\Theta)^{2n}}{(2n)!} + i\sum^\infty_{n=0} \frac{(-1)^n(\Theta)^{2n+1}}{(2n+1)!}\\
+    &=\cos(\Theta)+i\sin(\Theta)
+\end{align}\]</div>
+<hr/>
+<script src="../../main.js"></script>
+</BODY>
+</HTML>
