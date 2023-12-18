@@ -333,7 +333,6 @@ header{
 	border-top: solid 1px #441100;
 	border-right: solid 3px #331100;
 	cursor: pointer;
-	z-index: 3;
 }
 .poptions:hover{
 	padding-left: 4px;
@@ -405,16 +404,7 @@ a{text-decoration:none}
 }
 
 
-#tableadded{
-	max-width:1040px;
-	width:95%;
-	border-collapse:collapse;
-	white-space:normal;
-	border:5px solid #440044;
-	margin:20px auto
-}
-
-#tableedit{
+#tableadded, #tableedit{
 	max-width:1040px;
 	width:95%;
 	border-collapse:collapse;
